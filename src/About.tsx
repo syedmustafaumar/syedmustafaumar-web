@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About: React.FC = () => {
     return (
         <section id="about" className="py-20 text-gray-200">
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl font-bold mb-8">About Me</h2>
-                <p className="text-lg leading-relaxed mb-4">
+                <p className="text-lg leading-relaxed mb-4" data-aos="fade-down" data-aos-delay="100">
                     Hello! I'm SMU, a passionate developer with a love for creating
                     innovative solutions. I specialize in web development, particularly
                     using modern technologies like React, TypeScript, and more. I enjoy

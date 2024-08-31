@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         jetbrains: ['JetBrains Mono', 'monospace'],
       },
+      colors: {
+        customBlack: '#1c1c1c',
+      },
     },
   },
   plugins: [],
