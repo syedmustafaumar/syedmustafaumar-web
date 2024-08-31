@@ -41,7 +41,7 @@ const NavBar: React.FC = () => {
 
     return (
         <nav
-            className="fixed top-0 left-0 right-0 p-5 text-purple-400 z-10 bg-transparent bg-customBlack"
+            className="fixed top-0 left-0 right-0 p-5 text-purple-400 z-10 bg-customBlack"
             style={shadowStyle}
         >
             <div className="flex items-center justify-between">
